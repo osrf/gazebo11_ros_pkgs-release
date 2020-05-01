@@ -1,7 +1,7 @@
-From 60e306d9f8b882141e7c36715b1a89e4a17c4170 Mon Sep 17 00:00:00 2001
+From 00203d49b6ff86668e70d577639f1473e7ba4418 Mon Sep 17 00:00:00 2001
 From: Jose Luis Rivero <jrivero@osrfoundation.org>
 Date: Fri, 1 May 2020 01:34:16 +0200
-Subject: [PATCH 2/2] Set up a conflict with official ROS packages and the two
+Subject: [PATCH 2/3] Set up a conflict with official ROS packages and the two
  previous gazebo versions
 
 ---

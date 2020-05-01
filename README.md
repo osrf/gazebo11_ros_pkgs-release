@@ -1,3 +1,32 @@
+## gazebo11_ros_pkgs (melodic) - 2.8.6-2
+
+The packages in the `gazebo11_ros_pkgs` repository were released into the `melodic` distro by running `/usr/bin/bloom-release --no-pull-request --rosdistro melodic --track melodic gazebo11_ros_pkgs` on `Fri, 01 May 2020 10:14:03 -0000`
+
+These packages were released:
+- `gazebo_dev`
+- `gazebo_msgs`
+- `gazebo_plugins`
+- `gazebo_ros`
+- `gazebo_ros_control`
+- `gazebo_ros_pkgs`
+
+Version of package(s) in repository `gazebo11_ros_pkgs`:
+
+- upstream repository: https://github.com/ros-simulation/gazebo_ros_pkgs.git
+- release repository: unknown
+- rosdistro version: `null`
+- old version: `2.8.6-1`
+- new version: `2.8.6-2`
+
+Versions of tools used:
+
+- bloom version: `0.9.3`
+- catkin_pkg version: `0.4.17`
+- rosdep version: `0.19.0`
+- rosdistro version: `0.8.1`
+- vcstools version: `0.1.42`
+
+
 ## gazebo_ros_pkgs (melodic) - 2.8.6-1
 
 The packages in the `gazebo_ros_pkgs` repository were released into the `melodic` distro by running `/usr/bin/bloom-release --rosdistro melodic --track melodic gazebo_ros_pkgs` on `Thu, 26 Dec 2019 22:08:59 -0000`

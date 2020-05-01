@@ -1,4 +1,4 @@
-From fbee9ab72afb447a57e433fa7537141ff5966d15 Mon Sep 17 00:00:00 2001
+From 0a49a2a9fad81ee41d4b65184ac7fd205f200439 Mon Sep 17 00:00:00 2001
 From: Jose Luis Rivero <jrivero@osrfoundation.org>
 Date: Fri, 1 May 2020 13:07:54 +0200
 Subject: [PATCH 3/3] Fix problems with Conflict

@@ -1,0 +1,28 @@
+From 158d25246d477f49e1936d62f292d33ab094ee70 Mon Sep 17 00:00:00 2001
+From: Jose Luis Rivero <jrivero@osrfoundation.org>
+Date: Fri, 1 May 2020 13:07:03 +0200
+Subject: [PATCH] Fix control file
+
+---
+ debian/control.em | 3 ++-
+ 1 file changed, 2 insertions(+), 1 deletion(-)
+
+diff --git a/debian/control.em b/debian/control.em
+index 6d7b65c3..445b1ad8 100644
+--- a/debian/control.em
++++ b/debian/control.em
+@@ -6,9 +6,10 @@ Build-Depends: debhelper (>= @(debhelper_version).0.0), @(', '.join(BuildDepends
+ Homepage: @(Homepage)
+ Standards-Version: 3.9.2
+ 
+-Package: @(Package)
++Package:@(Package.replace('gazebo-','gazebo11-'))
+ Architecture: any
+ Depends: ${shlibs:Depends}, ${misc:Depends}, @(', '.join(Depends))
++Conflicts: @(Package)
+ @[if Conflicts]Conflicts: @(', '.join(Conflicts))@\n@[end if]@
+ @[if Replaces]Replaces: @(', '.join(Replaces))@\n@[end if]@
+ Description: @(Description)
+-- 
+2.17.1
+
